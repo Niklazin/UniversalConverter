@@ -1,10 +1,8 @@
 package uconverter;
 
 import asg.cliche.Command;
-import com.sun.prism.impl.Disposer;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 
 
@@ -12,7 +10,9 @@ public class UniversalConverter {
     private List<UnitConverter> converters = Arrays.asList(
             new CelsiusUnitConverter(),
             new FahrenheitUnitConverter(),
-            new KelvinUnitConverter()
+            new KelvinUnitConverter(),
+            new MetrsUnitConverter(),
+            new InchesUnitConverter()
     );
     private UnitConverter sourseConverter;
     private UnitConverter targetConverter;

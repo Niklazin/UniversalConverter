@@ -1,6 +1,6 @@
 package uconverter;
 
-public class MetrsUnitCinverter extends UnitConverter {
+public class MetrsUnitConverter extends UnitConverter {
     @Override
     public double toSI(double value) {
         return value;

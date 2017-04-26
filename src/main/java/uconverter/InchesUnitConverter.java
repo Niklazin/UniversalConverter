@@ -8,7 +8,7 @@ public class InchesUnitConverter extends UnitConverter {
     }
 
     @Override
-    public double fromSI(double siValue) { //тз метров в футы
+    public double fromSI(double siValue) { //из метров в футы
         return siValue * 0.3048;
     }
 
